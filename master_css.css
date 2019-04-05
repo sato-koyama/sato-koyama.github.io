@@ -20,3 +20,14 @@ pink: ;
 html {
 	font-family: 'Noto Sans JP', sans-serif;
 }
+
+.master_page {
+
+}
+.master_page ul li {
+	text-decoration: none;
+	font-size: 24px;
+}
+.master_page ul li:hover {
+
+}
