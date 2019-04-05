@@ -22,7 +22,8 @@ html {
 }
 
 .master_page {
-
+	background-color: black;
+	color: white;
 }
 .master_page ul li {
 	text-decoration: none;
@@ -30,4 +31,19 @@ html {
 }
 .master_page ul li:hover {
 
+}
+
+.portfolio_page {
+	background-color: gray;
+	color: white;
+}
+
+.project_page {
+	background-color: white;
+	color: black;
+}
+
+.about_page {
+	background-color: white;
+	color: black;
 }
