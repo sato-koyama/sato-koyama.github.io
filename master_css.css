@@ -21,6 +21,13 @@ html {
 	font-family: 'Noto Sans JP', sans-serif;
 }
 
+.empty {
+	font-size: 18px;
+	padding: 24px;
+	background-color: black;
+	color: white;
+}
+
 .master_page {
 	background-color: black;
 	color: white;
