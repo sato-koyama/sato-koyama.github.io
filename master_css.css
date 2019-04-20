@@ -124,10 +124,21 @@ html {
 
 .portfolio_page a, .projects_page a, .about_page a {
 	color: #fefefe;
+	-webkit-transition-property: color, text-shadow;
+	-webkit-transition-duration: 1s;
+	transition-property: color;
+	transition-duration: 1s;
 	text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
 	letter-spacing: 0.2em;
 	text-decoration: none;
 }
+.portfolio_page a:hover, .projects_page a:hover, .about_page a:hover {
+	color: #000;
+	text-shadow: -1px -1px 0 #ffffff, 1px -1px 0 #ffffff, -1px 1px 0 #ffffff, 1px 1px 0 #ffffff;
+	letter-spacing: 0.2em;
+	text-decoration: none;
+}
+
 .blurb {
 	color: gray;
 }
