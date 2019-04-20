@@ -15,14 +15,14 @@ html {
 }
 
 /*TEMP*/
-.empty {
+.portfolio_page .empty, .projects_page .empty, .about_page .empty {
 	font-size: 18px;
 	padding: 24px;
 	background-color: black;
 	color: white;
 }
 
-/*MASTER PAGE */
+/*INDEX PAGE */
 .master_page {
 	background-image: url('images/bgimg01.jpg');
 	background-attachment: fixed;
@@ -106,28 +106,37 @@ html {
 .projects_page {
 	background-image: url("images/bgimg03.jpg");
 	background-attachment: fixed;
-	background-position: 50% 200px;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;	
+	color: #004CA3;
+	text-align: center;
+}
+.about_page {
+	background-image: url("images/bgimg04.jpg");
+	background-attachment: fixed;
+	background-position: center;
 	background-repeat: no-repeat;
 	background-size: cover;	
 	color: #004CA3;
 	text-align: center;
 }
 
-.about_page {
-	background-image: url("images/bgimg04.jpg");
-	background-attachment: fixed;
-	background-position: 50% 200px;
-	background-repeat: no-repeat;
-	background-size: cover;	
-	color: #004CA3;
-	text-align: center;
-}
-.blurb {
-	color: black;
-}
 .portfolio_page a, .projects_page a, .about_page a {
 	color: #fefefe;
 	text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
 	letter-spacing: 0.2em;
 	text-decoration: none;
+}
+.blurb {
+	color: gray;
+}
+.gallery { 
+	display: flex;
+	flex-direction: row; 
+}
+.gallery img {
+	height: 400px;
+	width: auto;
+	object-fit: contain;
 }
