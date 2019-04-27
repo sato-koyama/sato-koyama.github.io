@@ -7,13 +7,14 @@ from light to dark: ffffa6 ffd286 ffa47e f47b89 cb5e99 8a51a5 004ca3;
 
 */
 
-/*HTML.MAIN*/
+/*################  HTML.MAIN  ########################*/
 html {
 	font-family: 'Noto Sans JP', sans-serif;
-	background-color: #FFFFA6;
-
+	background-color: rgb(225,225,225);
 }
-
+.darkmode {
+	background-color: rgb(30,30,30);
+}
 /*TEMP*/
 .portfolio_page .empty, .projects_page .empty, .about_page .empty {
 	font-size: 18px;
@@ -22,7 +23,11 @@ html {
 	color: white;
 }
 
-/*INDEX PAGE */
+/*#####################  INDEX PAGE  ##################### */
+#Main_D {
+	background-image: url("images/bgimg01d.jpg");
+	filter: grayscale(0.3);
+}
 .master_page {
 	background-image: url('images/bgimg01.jpg');
 	background-attachment: fixed;
@@ -93,7 +98,12 @@ html {
 	color: #bababa;
 	background-color: rgba(0,0,0,0.5);
 }
-/*PAGES ON MAIN*/
+
+/*#################  PAGES ON MAIN  #################*/
+#Portfolio_D {
+	background-image: url("images/bgimg02d.jpg");
+	filter: grayscale(0.3);
+}
 .portfolio_page {
 	background-image: url("images/bgimg02.jpg");
 	background-attachment: fixed;
@@ -103,6 +113,11 @@ html {
 	color: #004CA3;
 	text-align: center;
 }
+
+#Projects_D {
+	background-image: url("images/bgimg03d.jpg");
+	filter: grayscale(0.3);
+}
 .projects_page {
 	background-image: url("images/bgimg03.jpg");
 	background-attachment: fixed;
@@ -111,6 +126,10 @@ html {
 	background-size: cover;	
 	color: #004CA3;
 	text-align: center;
+}
+#About_D {
+	background-image: url("images/bgimg04d.png");
+	filter: grayscale(0.3);
 }
 .about_page {
 	background-image: url("images/bgimg04.jpg");
@@ -143,10 +162,45 @@ html {
 	color: gray;
 }
 .gallery { 
+	background-color: rgba(255,255,255,0.5);
+	padding: 24px;
 	display: flex;
-	flex-direction: row; 
+	flex-direction: row;
+	margin-left: auto;
+	margin-right: auto; 
+	max-width: 600px;
 }
 .gallery img {
+	width: 100%;
 	height: 400px;
 	object-fit: contain;
+}
+.images {
+	display: none;
+}
+
+/*####################  FOOTER  ################*/
+footer {
+	height: 20px;
+	line-height: 20px;
+	background-color: rgba(255,255,255,0.2);
+	color: white;
+	text-align: center;
+	padding-top: 2px;
+	padding-bottom: 2px;
+}
+footer span a {
+	text-decoration: none;
+	padding-left: 24px;
+	padding-right: 24px;
+	-webkit-transition-property: color, background-color;
+	-webkit-transition-duration: 2s;
+	transition-property: color;
+	transition-duration: 2s;
+	color: rgb(30,30,30);
+	background-color: rgba(255,255,255,0.2);
+}
+footer span a:hover {
+	color: rgb(0,0,0);
+	background-color: rgba(225,225,225,0.8);
 }
