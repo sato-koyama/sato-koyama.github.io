@@ -16,7 +16,7 @@ html {
 	background-color: rgb(30,30,30);
 }
 /*TEMP*/
-.portfolio_page .empty, .projects_page .empty, .about_page .empty {
+.portfolio_page_main .empty, .projects_page_main .empty, .about_page_main .empty {
 	font-size: 18px;
 	padding: 24px;
 	background-color: black;
@@ -202,7 +202,28 @@ html {
 	color: #004CA3;
 	text-align: center;
 }
-
+.projects_content {
+	font-size: 18px;
+	padding: 24px;
+	background-color: rgb(200,200,200);
+	color: rgb(55,55,55);
+}
+.projects_nav ul {
+ 	list-style-type: none;
+ 	padding: 12px;
+}
+.projects_nav ul li {
+ 	display: inline;
+ 	text-align: center;
+ 	color: rgb(10,10,10);
+}
+.projects_nav a {
+	text-decoration: none;
+}
+.projects_content a {
+	text-decoration: none;
+	color: rgb(55,65,45);
+}
 /*ABOUT_____________*/
 #About_D {
 	background-image: url("images/bgimg04d.png");
@@ -238,7 +259,7 @@ html {
 }
 
 .blurb {
-	color: gray;
+	color: rgb(10,10,10);
 }
 .gallery { 
 	background-color: rgba(255,255,255,0.5);
