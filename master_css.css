@@ -7,21 +7,35 @@ html {
 	background-color: rgb(225,225,225);
 }
 
+.header > a {
+	text-decoration: none;
+	color: rgb(75,75,75);
+}
+.header > a:hover {
+	color: rgb(0,0,0);
+}
+
 .links > ul {
 	list-style: none;
 }
 .links > ul > li > a {
-	color: black;
+	color: rgb(50,50,50);
 	text-decoration: none;
 }
-.links > ul > li >.hoverlink {
-	display: none;
-	width: 100%;
+@keyframes color {
+	from {
+		color: rgb(50,50,50);
+	}
+	to {
+		color: rgb(0,0,0);
+	}
 }
-.links > ul > li > a:hover + .hoverlink,.hoverlink:hover {
-	display: block;
-	position: relative;
-	z-index: 100;
+.links > ul > li > a:hover {
+	color: rgb(0,255,0);
+	animation-name: color;
+	animation-duration: 0.1s;
+	animation-timing-function: ease-in;
+	animation-fill-mode: forwards;
 }
 
 /**/

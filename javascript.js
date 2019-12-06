@@ -12,9 +12,12 @@ else {
 // css date
 var date = new Date();
 var time = date.getHours();
-if (time>9) {
+if (time>=18) {
 	document.getElementById("page").style.backgroundColor = 'rgb(50,50,50)';
-	document.getElementById("page").style.color = 'rgb(205,205,205)';
+	document.getElementById("title").style.color = 'rgb(205,205,205)';
+
+	var AllEarlQuery = document.querySelectorAll(".earl");
+	AllEarlQuery.style.color = 'rgb(205,205,205)';
 }
 
 
