@@ -10,7 +10,6 @@
 /*APPLY TO ALL PAGES*/
 
 html {
-
 	font-family: 'Noto Sans JP', sans-serif;
 	background-color: rgb(205,205,205);
 }
@@ -40,4 +39,8 @@ html {
 	color: #2a9d8f;
 }
 
-/**/
+/*to fuck fucking*/
+html {
+	visibility: visible;
+	opacity: 1;
+}
