@@ -20,6 +20,7 @@ html {
 	color: rgb(205,205,205);
 	text-shadow: 3px 3px rgba(105,105,105,0.7);
 	font-size: 24px;
+	transition: color 0.5s linear;	
 }
 .header > a:hover {
 	color: #e9c46a;
@@ -32,6 +33,7 @@ html {
 	color: rgb(205,205,205);
 	font-weight: bold;
 	text-decoration: none;
+	transition: color 0.5s linear;
 }
 
 .links > ul > li > a:hover {
