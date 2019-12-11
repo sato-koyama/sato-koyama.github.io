@@ -1,0 +1,32 @@
+html {
+	font-family: cambria;
+	background-color: white;
+}
+* {
+	box-sizing: border-box;
+}
+.sidenav {
+	height: 100%;
+	width: 200px;
+	position: fixed;
+	z-index: 1;
+	top: 0;
+	left: 0;
+	background-color: black;
+	overflow-x: hidden;
+}
+.sidenav > a {
+	color: white;
+	padding: 16px;
+	text-decoration: none;
+	display: block;
+	transition: color 0.5s linear, background-color 0.5s linear;
+}
+.sidenav > a:hover {
+	background-color: grey;
+	color: black;
+}
+
+.twitter {
+	margin-left: 200px;
+}
