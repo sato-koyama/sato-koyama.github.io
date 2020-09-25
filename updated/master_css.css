@@ -8,7 +8,9 @@
 */
 
 /*APPLY TO ALL PAGES*/
-
+* {
+  box-sizing: border-box;
+}
 html {
 	font-family: 'Noto Sans JP', sans-serif;
 	background-color: rgb(205,205,205);
@@ -17,19 +19,28 @@ html {
 .header > a {
 	text-decoration: none;
 	color: rgb(50,50,50);
+	font-size: 36px;
 	text-shadow: 3px 3px rgba(105,105,105,0.7);
-	font-size: 24px;
-	transition: color 0.5s linear;
+	transition: color 0.2s linear;
+	cursor: pointer;
+	text-align: center;
 }
 .header > a:hover {
 	color: #e9c46a;
+	text-shadow: 3px 3px rgba(105,105,105,0.4);
 }
 
+
+.links {
+	display: none;
+}
 .links > ul {
 	list-style: none;
+	text-align: center;
 }
 .links > ul > li > a {
 	color: rgb(50,50,50);
+	background-color: red;
 	font-weight: bold;
 	text-decoration: none;
 	transition: color 0.5s linear;
