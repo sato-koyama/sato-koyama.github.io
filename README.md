@@ -1,5 +1,10 @@
 # sato-koyama.github.io
 
+UPDATE UPDATE (SEP 26 2020):
+* repurposing the whole website and format it similar to a twitter blog (don't like social media)
+* it'll be fairly similar to a twitter timeline of a person and it'll mainly be about write-up of the projects (rejected and in progress)
+
+
 UPDATE (NOV 27 2019):
 * completely remaking the code because styling was a pain when i made roundabout ways to make it work.
 
