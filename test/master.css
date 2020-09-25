@@ -5,16 +5,11 @@ html {
 	color: white;
 }
 
-.body {
-	margin: auto;
-	text-align: center;
-	border: 3px solid white;
-	width: 60%;
+body > .body {
 }
 
 #header {
 }
 
 #content {
-	padding: 10px 0px 10px 0px;q
 }

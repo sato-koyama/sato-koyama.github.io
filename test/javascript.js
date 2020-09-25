@@ -20,4 +20,4 @@ var data = [
 "It works!", "Red kinda sus", "yubi yubi!"
 ];
 var title = data[Math.floor(Math.random() * data.length)];
-document.getElementById("title").innerHTML = title;
+document.getElementById("title").innerHTML = "<strong>" + title + "</strong>";
