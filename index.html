@@ -7,10 +7,11 @@
 	<link id="style" rel="stylesheet" type="text/css" href="master.css">
 	<link href="https://fonts.googleapis.com/css?family=Noto+Sans+JP" rel="stylesheet">
 	<link rel="icon" type="image/x-icon" href="favicon.ico?">
-	<title>Home</title>
+	<title id="web_title">Home</title>
 </head>
 
 <body>
+
 	<div id="header" class="body">
 		<h1 id="title"></h1>
 		<div id="image_header" class="body">
@@ -18,19 +19,49 @@
 		</div>
 	</div>
 
-	<br><br><br>
+	<div id="content" class="body"> 
+		<!-- i somehow want to make this automatically update given a textfile or something but for now its hard-coded to see the results -->
+		<article class="content_post">
+			<h3 class="content_text">Sep 26, 2020. 3:30AM</h3>
+			<p class="content_text">This is just a test paragraph where I'm just writing stuff as filler because lorem ipsum is just a consistent blob of text which I know won't be the case. Anyways, the weather is nice from my room... I don't have a window. Here's multiple images of chak. I want to add hidden easter eggs in the future.</p>
+			<img src="images/test.png" class="content_image">
+		</article>
 
-	<div id="content" class="body">
-		<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras maximus semper dui, id euismod est interdum id. Sed rhoncus interdum auctor. Sed lectus nunc, ultricies et pellentesque a, pulvinar malesuada erat. Nulla facilisi. Vivamus eu lorem sapien. Curabitur sit amet pretium metus, id egestas massa. Integer convallis consequat venenatis. Pellentesque metus arcu, placerat et turpis sit amet, sagittis bibendum dui. Nullam dignissim varius mi, vitae aliquam lectus tincidunt sed. Donec porta enim posuere dolor imperdiet, eu tincidunt sem ultricies. Interdum et malesuada fames ac ante ipsum primis in faucibus. Duis congue rutrum arcu ut lacinia. Maecenas quis dolor in eros dignissim tempus varius ut justo.</p>
-		<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras maximus semper dui, id euismod est interdum id. Sed rhoncus interdum auctor. Sed lectus nunc, ultricies et pellentesque a, pulvinar malesuada erat. Nulla facilisi. Vivamus eu lorem sapien. Curabitur sit amet pretium metus, id egestas massa. Integer convallis consequat venenatis. Pellentesque metus arcu, placerat et turpis sit amet, sagittis bibendum dui. Nullam dignissim varius mi, vitae aliquam lectus tincidunt sed. Donec porta enim posuere dolor imperdiet, eu tincidunt sem ultricies. Interdum et malesuada fames ac ante ipsum primis in faucibus. Duis congue rutrum arcu ut lacinia. Maecenas quis dolor in eros dignissim tempus varius ut justo.</p>
-		<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras maximus semper dui, id euismod est interdum id. Sed rhoncus interdum auctor. Sed lectus nunc, ultricies et pellentesque a, pulvinar malesuada erat. Nulla facilisi. Vivamus eu lorem sapien. Curabitur sit amet pretium metus, id egestas massa. Integer convallis consequat venenatis. Pellentesque metus arcu, placerat et turpis sit amet, sagittis bibendum dui. Nullam dignissim varius mi, vitae aliquam lectus tincidunt sed. Donec porta enim posuere dolor imperdiet, eu tincidunt sem ultricies. Interdum et malesuada fames ac ante ipsum primis in faucibus. Duis congue rutrum arcu ut lacinia. Maecenas quis dolor in eros dignissim tempus varius ut justo.</p>
-		<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras maximus semper dui, id euismod est interdum id. Sed rhoncus interdum auctor. Sed lectus nunc, ultricies et pellentesque a, pulvinar malesuada erat. Nulla facilisi. Vivamus eu lorem sapien. Curabitur sit amet pretium metus, id egestas massa. Integer convallis consequat venenatis. Pellentesque metus arcu, placerat et turpis sit amet, sagittis bibendum dui. Nullam dignissim varius mi, vitae aliquam lectus tincidunt sed. Donec porta enim posuere dolor imperdiet, eu tincidunt sem ultricies. Interdum et malesuada fames ac ante ipsum primis in faucibus. Duis congue rutrum arcu ut lacinia. Maecenas quis dolor in eros dignissim tempus varius ut justo.</p>
-		<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras maximus semper dui, id euismod est interdum id. Sed rhoncus interdum auctor. Sed lectus nunc, ultricies et pellentesque a, pulvinar malesuada erat. Nulla facilisi. Vivamus eu lorem sapien. Curabitur sit amet pretium metus, id egestas massa. Integer convallis consequat venenatis. Pellentesque metus arcu, placerat et turpis sit amet, sagittis bibendum dui. Nullam dignissim varius mi, vitae aliquam lectus tincidunt sed. Donec porta enim posuere dolor imperdiet, eu tincidunt sem ultricies. Interdum et malesuada fames ac ante ipsum primis in faucibus. Duis congue rutrum arcu ut lacinia. Maecenas quis dolor in eros dignissim tempus varius ut justo. a</p>
+		<br>
+
+		<article class="content_post">
+			<h3 class="content_text">Article</h3>
+			<p class="content_text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras maximus semper dui, id euismod est interdum id. Sed rhoncus interdum auctor. Sed lectus nunc, ultricies et pellentesque a, pulvinar malesuada erat. Nulla facilisi. Vivamus eu lorem sapien. Curabitur sit amet pretium metus, id egestas massa. Integer convallis consequat venenatis. Pellentesque metus arcu, placerat et turpis sit amet, sagittis bibendum dui. Nullam dignissim varius mi, vitae aliquam lectus tincidunt sed. Donec porta enim posuere dolor imperdiet, eu tincidunt sem ultricies. Interdum et malesuada fames ac ante ipsum primis in faucibus. Duis congue rutrum arcu ut lacinia. Maecenas quis dolor in eros dignissim tempus varius ut justo.</p>
+			<img src="images/test2.png" class="content_image">
+		</article>
+
+		<br>
+
+		<article class="content_post">
+			<h3 class="content_text">Article</h3>
+			<p class="content_text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras maximus semper dui, id euismod est interdum id. Sed rhoncus interdum auctor. Sed lectus nunc, ultricies et pellentesque a, pulvinar malesuada erat. Nulla facilisi. Vivamus eu lorem sapien. Curabitur sit amet pretium metus, id egestas massa. Integer convallis consequat venenatis. Pellentesque metus arcu, placerat et turpis sit amet, sagittis bibendum dui. Nullam dignissim varius mi, vitae aliquam lectus tincidunt sed. Donec porta enim posuere dolor imperdiet, eu tincidunt sem ultricies. Interdum et malesuada fames ac ante ipsum primis in faucibus. Duis congue rutrum arcu ut lacinia. Maecenas quis dolor in eros dignissim tempus varius ut justo.</p>
+			<img src="images/test.png" class="content_image">
+		</article>
+
+		<br>
+
+		<article class="content_post">
+			<h3 class="content_text">Article</h3>
+			<p class="content_text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras maximus semper dui, id euismod est interdum id. Sed rhoncus interdum auctor. Sed lectus nunc, ultricies et pellentesque a, pulvinar malesuada erat. Nulla facilisi. Vivamus eu lorem sapien. Curabitur sit amet pretium metus, id egestas massa. Integer convallis consequat venenatis. Pellentesque metus arcu, placerat et turpis sit amet, sagittis bibendum dui. Nullam dignissim varius mi, vitae aliquam lectus tincidunt sed. Donec porta enim posuere dolor imperdiet, eu tincidunt sem ultricies. Interdum et malesuada fames ac ante ipsum primis in faucibus. Duis congue rutrum arcu ut lacinia. Maecenas quis dolor in eros dignissim tempus varius ut justo.</p>
+			<img src="images/test.png" class="content_image">
+		</article>
+
+		<br>
+
+		<article class="content_post">
+			<h3 class="content_text">Article</h3>
+			<p class="content_text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras maximus semper dui, id euismod est interdum id. Sed rhoncus interdum auctor. Sed lectus nunc, ultricies et pellentesque a, pulvinar malesuada erat. Nulla facilisi. Vivamus eu lorem sapien. Curabitur sit amet pretium metus, id egestas massa. Integer convallis consequat venenatis. Pellentesque metus arcu, placerat et turpis sit amet, sagittis bibendum dui. Nullam dignissim varius mi, vitae aliquam lectus tincidunt sed. Donec porta enim posuere dolor imperdiet, eu tincidunt sem ultricies. Interdum et malesuada fames ac ante ipsum primis in faucibus. Duis congue rutrum arcu ut lacinia. Maecenas quis dolor in eros dignissim tempus varius ut justo.</p>
+			<img src="images/test2.png" class="content_image">
+		</article>
+
 	</div>	
 
 	<script src="javascript.js"></script>
 </body>
-
-
 
 </html>
