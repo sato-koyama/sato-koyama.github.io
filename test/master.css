@@ -1,0 +1,20 @@
+/* . = class, # = id, html class is as is*/
+html {
+	font-family: 'Noto Sans JP', sans-serif;
+	background-color: black;
+	color: white;
+}
+
+.body {
+	margin: auto;
+	text-align: center;
+	border: 3px solid white;
+	width: 60%;
+}
+
+#header {
+}
+
+#content {
+	padding: 10px 0px 10px 0px;
+}
