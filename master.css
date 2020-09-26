@@ -34,12 +34,12 @@ html {
 /*CONTENT*/
 #content {
 	width: 80%;
-	padding: 10px 20px 10px 20px;
+	padding: 0px 20px 0px 20px;
 	border-left: 8px dashed white;
 	cursor: default;
 }
 .content_post {
-	border-left: 6px solid grey;
+	border-left: 6px solid rgba(77,77,77,0.7);
 	padding-left: 12px;
 }
 .content_text {
@@ -51,4 +51,20 @@ html {
 	height: auto;
 	margin-left: auto;
 	margin-right: auto;
+}
+
+/*FOOTER*/
+#anti_footer {
+	font-family: "VT323";
+	cursor: pointer;
+	font-size: 24px;
+	letter-spacing: 4px;
+	text-align: left;
+}
+#footer {
+	font-family: "VT323";
+	cursor: pointer;
+	font-size: 24px;
+	letter-spacing: 4px;
+	text-align: left;
 }
