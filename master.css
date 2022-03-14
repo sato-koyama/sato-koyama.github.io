@@ -80,21 +80,21 @@ html {
 }
 
 #contacts {
-	text-align:center;
+	text-align:left;
 	display: grid;
-	justify-content:center;
+	justify-content:left;
 }
 
 #contacts > ul > li {
 	list-style: none;
 	font-size: 18px;
-	color: rgba(115,97,102,0.8);
+	color: rgba(123,123,123,0.8);
 	transition: 1s ease-in;
 }
 
 #contacts > ul > li:hover {
 	cursor: pointer;
-	color: rgba(174,203,196,1);
+	color: rgba(174,114,196,1);
 }
 /*CONTENT*/
 #content {
