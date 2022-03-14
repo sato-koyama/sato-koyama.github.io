@@ -23,6 +23,5 @@ document.getElementById("web_title").innerHTML = title;
 // pop up function
 function popupFunc() {
 	var popup = document.getElementById("popup_content");
-	console.log("Hello");
 	popup.classList.toggle("show");
 }
