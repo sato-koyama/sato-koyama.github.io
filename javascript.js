@@ -20,3 +20,9 @@ var title = data[Math.floor(Math.random() * data.length)];
 document.getElementById("title").innerHTML = "<i>" + title + "</i>";
 document.getElementById("web_title").innerHTML = title;
 
+// pop up function
+function popupFunc() {
+	var popup = document.getElementById("popup_content");
+	console.log("Hello");
+	popup.classList.toggle("show");
+}
