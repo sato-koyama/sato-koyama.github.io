@@ -46,8 +46,8 @@ html {
 	border-radius: 6px;
 	position: absolute;
 	z-index: 1;
-	left: 33%;
-	right: 33%;
+	left: 20%;
+	right: 20%;
 	padding-top: 5px;
 	padding-bottom: 5px;
 }
