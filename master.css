@@ -79,6 +79,23 @@ html {
 	to {opacity: 1;}
 }
 
+#contacts {
+	text-align:center;
+	display: grid;
+	justify-content:center;
+}
+
+#contacts > ul > li {
+	list-style: none;
+	font-size: 18px;
+	color: rgba(115,97,102,0.8);
+	transition: 1s ease-in;
+}
+
+#contacts > ul > li:hover {
+	cursor: pointer;
+	color: rgba(174,203,196,1);
+}
 /*CONTENT*/
 #content {
 	width: 80%;

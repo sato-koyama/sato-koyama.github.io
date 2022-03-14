@@ -25,3 +25,13 @@ function popupFunc() {
 	var popup = document.getElementById("popup_content");
 	popup.classList.toggle("show");
 }
+
+// get email
+function emailFunc() {
+	document.getElementById("emailtag").innerHTML = "534b.noh at gmail";
+}
+
+// get discord
+function discordFunc() {
+	document.getElementById("discordtag").innerHTML = "sato# 8 8 3 8";
+}
