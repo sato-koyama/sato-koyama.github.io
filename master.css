@@ -89,6 +89,15 @@ html {
 .content_post {
 	border-left: 6px solid rgba(77,77,77,0.7);
 	padding-left: 12px;
+	color: white;
+	
+}
+.content_post a {
+	text-decoration: none;
+	color: white;
+}
+.content_post a:hover {
+	color: rgb(230,20,20);
 }
 .content_text {
 	text-align: left;
@@ -96,10 +105,13 @@ html {
 	justify-content: center;
 }
 .content_image {
-	max-width: 70%;
-	height: auto;
 	margin-left: auto;
 	margin-right: auto;
+}
+img {
+	width: 60%;
+	height: auto;
+	max-height: 100%;
 }
 .content_video {
 	position: relative;
