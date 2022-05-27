@@ -2,6 +2,9 @@
 
 https://youtu.be/nhgy5JHOYJ0
 
+UPDATE x4 (MAY 28 2022):
+* got myself a domain :D
+
 UPDATE UPDATE UPDATE (MAR 14 2022):
 * cleaned up some stuff. Now it looks clean.
 * uploaded all the videos i made that were fine.
